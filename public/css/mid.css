@@ -1,0 +1,10 @@
+#mid iframe
+{
+    overflow: hidden;
+}
+#mid {
+    background-image: url(../img/page2-bg.jpg);
+    width: 100%;
+    float: left;
+    height: 1000px;
+}

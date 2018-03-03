@@ -1,0 +1,12 @@
+
+
+#footer {
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    height: 20px;
+    /* position: fixed; */
+    bottom: 0px;
+    font-weight: 100;
+}
