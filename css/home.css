@@ -1,18 +1,12 @@
-#mid {
-    background-image: url(../img/page2-bg.jpg);
-    width: 100%;
-    float: left;
-    height: 1000px;
-}
+
 
 #footer {
-    text-align: center;
     padding-bottom: 50px;
     box-sizing: border-box;
     width: 100%;
     float: left;
     height: 20px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0px;
     font-weight: 100;
 }
