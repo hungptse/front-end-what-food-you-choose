@@ -1,0 +1,51 @@
+#register {
+    background-image: url(../img/about-bg.jpeg);
+    /* background-color: beige; */
+    width: 100%;
+    float: left;
+    height: 1000px;
+}
+
+#titleReg {
+    margin-top: 100px;
+    margin-left: 42%;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
+
+#hrLeft {
+    margin-left: 31%;
+    opacity: 1;
+    width: 42%;
+    transition: all 1s;
+}
+
+#us>hr {
+    width: 10%;
+    float: left;
+    padding-left: 3%;
+}
+
+#us>span {
+    width: 10%;
+    float: left;
+    text-align: center;
+    margin: 0px 1px 0px 1px;
+    color: black;
+    animation: mymove 1s infinite;
+}
+
+#us {
+    margin-bottom: 100px;
+}
+
+@keyframes mymove {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
