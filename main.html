@@ -4,45 +4,41 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
     <title>Main</title>
-    <style>
-        body {
-            font-weight: 100;
-            font-family: sans-serif;
-            margin: 0;
-        }
-
-        #title {
-            font-size: 100px;
-            margin-left: 24%;
-            margin-top: 10%;
-        }
-
-        #btn {
-            height: 70px;
-            width: 300px;
-            margin-left: 45%;
-            margin-top: 20%;
-            font-size: 28px;
-            border: 1px solid black;
-            text-decoration: black;
-            border-radius: 5px;
-            box-sizing: border-box;
-            padding-left: 20px;
-            padding-right: 20px;
-
-        }
-
-        #btn:visited {
-            color: black;
-        }
-    </style>
 </head>
 
-<body>
-    <p id="title">What food you choose?</p>
-    <a href="#" id="btn">What ever</a>
-
+<body onload="init()">
+    <!-- <div id="all">
+        <p id="title">What food you choose?</p>
+        <a href="#" id="btn">What ever</a>
+        <div id="chooseLocation"></div>
+    </div> -->
+    <div id="container">
+        <div id="section">
+            <div class="divContent">
+                <p id="title">What food you choose?</p>
+                <a href="#" id="btn" onclick="callDisplayLocation('list'); clickTrans('1');">What ever &rarrhk; </a>
+            </div>
+            <div class="divContent">
+                <span href="#" id="btnBack" onclick="clickTrans('0');">&larrhk; Back</span>
+                <p id="titleCity">Choose City</p>
+                <div id="list">
+                </div>
+            </div>
+            <div class="divContent">
+                <span href="#" id="btnBack" onclick="clickTrans('1');">&larrhk; Back</span>
+                <p id="nameCity"></p>
+                <div id="listFood"></div>
+                <span href="#" id="another" >Another one &NotEqual;</span>
+            </div>
+            <div class="divContent">
+                <p id="titleMap">Here is your location <3. Enjoy your meal ;)</p>
+                <span href="#" id="btnBack" onclick="clickTrans('2');">&larrhk; Back</span>                
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
