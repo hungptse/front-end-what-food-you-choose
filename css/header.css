@@ -139,7 +139,7 @@ body {
     width: 46px;
 } */
 
-.page {
+#page {
     scroll-behavior: smooth;
     /* smooth scroll */
     overflow-y: auto;
